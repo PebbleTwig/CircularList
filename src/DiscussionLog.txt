@@ -1,0 +1,19 @@
+Eric Rockwood
+
+I expected to spend around 3 to 4 hours on this project, and in actuality I spent about that much.
+
+One of the hardest things for me and what I wasted a ton of time on was trying to reinvent the wheel,
+and creating all of the code from scratch for the list. I also made some dumb mistakes, like trying to do
+Node<E> head = new Node<E>(null);, and wondering why I was getting NullPointerExceptions. Eventually I figured it out
+and made it Node<E> head = null;. Once I realized that I could use my old code from the DoublyLikedList, it
+was much much easier.
+
+Most of the problems I faced was with making the add method work before I fixed the code and reused some of the old code.
+Once I had done that, it was only a matter of making the DoublyLinkedList work for a CircularList, which was not
+as difficult as I was expecting. I did add a tail which I do not think I was supposed to do but it made adding
+new nodes to the end of the list much easier, so that is why I did it. Most of the methods were easy to do and
+figure out once I had the core methods done, like get, add, and remove, since some of the other methods could use these
+methods to assist them in what they were trying to do.
+
+As said in class most of the trouble was keeping track of all of the pointers, but once I had that down the rest wasn't
+too much trouble.
